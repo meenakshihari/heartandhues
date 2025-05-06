@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Heart & Hues</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Heart & Hues Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="portfolio" class="portfolio-section">
+      <h2>Portfolio</h2>
+      <div class="portfolio-box">
+        <div class="portfolio-grid">
+          <img
+            src="images/portfolio1.jpg"
+            alt="Portfolio Image 1"
+            onclick="openModal('images/portfolio1.jpg')"
+          />
+          <img
+            src="images/portfolio2.jpg"
+            alt="Portfolio Image 2"
+            onclick="openModal('images/portfolio2.jpg')"
+          />
+          <img
+            src="images/portfolio3.jpg"
+            alt="Portfolio Image 3"
+            onclick="openModal('images/portfolio3.jpg')"
+          />
+          <img
+            src="images/portfolio4.JPG"
+            alt="Portfolio Image 4"
+            onclick="openModal('images/portfolio4.JPG')"
+          />
+          <img
+            src="images/portfolio5.JPG"
+            alt="Portfolio Image 5"
+            onclick="openModal('images/portfolio5.JPG')"
+          />
+          <img
+            src="images/portfolio6.JPG"
+            alt="Portfolio Image 6"
+            onclick="openModal('images/portfolio6.JPG')"
+          />
+          <img
+            src="images/portfolio7.JPG"
+            alt="Portfolio Image 7"
+            onclick="openModal('images/portfolio7.JPG')"
+          />
+          <img
+            src="images/portfolio8.JPG"
+            alt="Portfolio Image 8"
+            onclick="openModal('images/portfolio8.JPG')"
+          />
+          <img
+            src="images/portfolio9.jpg"
+            alt="Portfolio Image 9"
+            onclick="openModal('images/portfolio9.jpg')"
+          />
+          <img
+            src="images/portfolio10.jpg"
+            alt="Portfolio Image 10"
+            onclick="openModal('images/portfolio10.jpg')"
+          />
+          <img
+            src="images/portfolio11.JPG"
+            alt="Portfolio Image 11"
+            onclick="openModal('images/portfolio11.JPG')"
+          />
+          <img
+            src="images/portfolio12.jpeg"
+            alt="Portfolio Image 12"
+            onclick="openModal('images/portfolio12.jpeg')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2025 Heart & Hues. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
